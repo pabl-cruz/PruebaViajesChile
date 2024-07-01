@@ -25,19 +25,19 @@
 <body>
     <header>
         <!--navbar-->
-        <nav class="navbar navbar-expand-lg bg-none">
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
             <div class="container">
                 <div class="row col">
-                        <img src="assets/img/viajes.svg" alt="logo chile viajes col" width="60px">
-                        <a class="navbar-brand" href="#">
-                        <h1 class="raleway-regular text-white col">Viajes Chile</h1>
+                        <img src="assets/img/viajes.svg" alt="logo chile viajes" class="col-3" style="width: 15%">
+                        <a class="navbar-brand col-9 align-content-center" href="#">
+                        <h1 class="raleway-regular text-white m-0">Viajes Chile</h1>
                         </a>
                 </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
-                <div class="navbar-nav raleway-light">
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav raleway-light ms-auto">
                   <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
                   <a class="nav-link text-white" href="#quienesSomos">Quienes Somos</a>
                   <a class="nav-link text-white" href="#destacados">Destacados</a>
@@ -47,7 +47,7 @@
             </div>
           </nav>
           <!--Bootstrap carousel--> 
-          <div id="carouselHero" class="carousel slide">
+          <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Altiplano">
@@ -76,19 +76,19 @@
             <hr>
             <div class="row py-4">
                 <div class="col mr-1">
-                    <div class="icon-bar bg-info w-100">
+                    <div class="icon-bar bg-info text-center w-100 mb-3">
                         <i class="fa-solid fa-plane fs-1 text-white"></i>
                     </div>
                     <p class="text-white raleway-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam maecenas sed enim ut sem viverra. Etiam erat velit scelerisque in dictum non consectetur a erat. Tellus mauris a diam maecenas sed enim ut sem. Ipsum suspendisse ultrices gravida dictum fusce ut. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Ipsum nunc aliquet bibendum enim facilisis. Habitant morbi tristique senectus et netus et malesuada fames. Habitant morbi tristique senectus et netus et malesuada fames. Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Sit amet est placerat in egestas erat imperdiet sed euismod. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Sed turpis tincidunt id aliquet risus feugiat in. Et molestie ac feugiat sed lectus vestibulum mattis.</p>
                 </div>
                 <div class="col mx-1">
                     <p class="text-white raleway-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam maecenas sed enim ut sem viverra. Etiam erat velit scelerisque in dictum non consectetur a erat. Tellus mauris a diam maecenas sed enim ut sem. Ipsum suspendisse ultrices gravida dictum fusce ut. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Ipsum nunc aliquet bibendum enim facilisis. Habitant morbi tristique senectus et netus et malesuada fames. Habitant morbi tristique senectus et netus et malesuada fames. Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Sit amet est placerat in egestas erat imperdiet sed euismod. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Sed turpis tincidunt id aliquet risus feugiat in. Et molestie ac feugiat sed lectus vestibulum mattis.</p>
-                    <div class="icon-bar bg-info w-100">
+                    <div class="icon-bar bg-info text-center w-100 mt-2">
                         <i class="fa-solid fa-mountain fs-1 text-white"></i>
                     </div>
                 </div>
                 <div class="col ml-1">
-                    <div class="icon-bar bg-info w-100">
+                    <div class="icon-bar bg-info text-center w-100 mb-3">
                         <i class="fa-solid fa-route fs-1 text-white"></i>
                     </div>
                     <p class="text-white raleway-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam maecenas sed enim ut sem viverra. Etiam erat velit scelerisque in dictum non consectetur a erat. Tellus mauris a diam maecenas sed enim ut sem. Ipsum suspendisse ultrices gravida dictum fusce ut. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Ipsum nunc aliquet bibendum enim facilisis. Habitant morbi tristique senectus et netus et malesuada fames. Habitant morbi tristique senectus et netus et malesuada fames. Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Sit amet est placerat in egestas erat imperdiet sed euismod. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae. Enim eu turpis egestas pretium aenean pharetra magna ac placerat. Sed turpis tincidunt id aliquet risus feugiat in. Et molestie ac feugiat sed lectus vestibulum mattis.</p>
@@ -99,28 +99,28 @@
         <section id="destacados" class="container">
             <h2 class="raleway-regular text-center text-white py-5">DESTACADOS</h2>
             <div class="row">
-                <div class="card col-12 col-lg p-0 ml-1" style="width: 18rem;">
+                <div class="card col-12 col-lg mx-auto mb-5 my-md-0 mb-lg-0 p-0">
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="Torres del Paine">
                     <div class="card-body bg-info p-2">
                         <h3 class="raleway-regular text-white card-title">Torres del Paine</h3>
                       <p class="card-text text-white raleway-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                   </div>
-                  <div class="card col-12 col-lg p-0 mx-1" style="width: 18rem;">
+                  <div class="card col-12 col-lg p-0 my-5 my-lg-0 mx-auto mx-lg-2">
                     <img src="assets/img/card2.jpg" class="card-img-top" alt="Desierto de Atacama">
                     <div class="card-body bg-info p-2">
                         <h3 class="raleway-regular text-white card-title">Desierto de Atacama</h3>
                       <p class="card-text text-white raleway-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                   </div>
-                  <div class="card col-12 col-lg p-0 mx-1" style="width: 18rem;">
+                  <div class="card col-12 col-lg p-0 my-5 my-lg-0 mx-auto mx-lg-2">
                     <img src="assets/img/card3.jpg" class="card-img-top" alt="Laguna">
                     <div class="card-body bg-info p-2">
                         <h3 class="raleway-regular text-white card-title">Laguna</h3>
                       <p class="card-text text-white raleway-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                   </div>
-                  <div class="card col-12 col-lg p-0 mr-1" style="width: 18rem;">
+                  <div class="card col-12 col-lg p-0 mx-auto mt-5 my-lg-0">
                     <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosques del Sur">
                     <div class="card-body bg-info p-2">
                         <h3 class="raleway-regular text-white card-title">Bosques del Sur</h3>
@@ -154,8 +154,8 @@
     <footer class="bg-info">
         <div class="container">
             <div class="row py-3">
-                <h4 class="raleway-regular text-white col-9 align-content-center pt-2 m-0">VIAJES CHILE</h4>
-                <div class="container col">
+                <h4 class="raleway-regular text-white col-7 col-lg-9 align-content-center pt-1 pt-lg-2 m-0">VIAJES CHILE</h4>
+                <div class="container col-5 col-lg">
                     <div class="row">
                         <i class="fa-brands fa-square-github text-white col fs-1"></i>
                         <i class="fa-brands fa-linkedin text-white col fs-1"></i>

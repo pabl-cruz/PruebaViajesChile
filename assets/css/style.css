@@ -2,6 +2,14 @@ html{
     scroll-behavior: smooth;
 }
 
+hr{
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.navbar{
+  z-index: 100;
+}
 
 /*FUENTES*/
 .raleway-light {
@@ -16,4 +24,32 @@ html{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+  }
+
+  
+
+  /*MEDIA QUERIES*/
+
+  @media screen and (min-width: 768px) {
+    .navbar{
+      margin-bottom: -125px;
+      background: none!important;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .card{
+      width: 80%;
+    }
+  }
+
+  @media screen and (min-width: 996px) {
+    #destacados .card:nth-child(1){
+      margin-right: 0.5em!important;
+    }
+  
+    #destacados .card:nth-child(4){
+      margin-left: 0.5em!important;
+    }
+  
   }
